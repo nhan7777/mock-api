@@ -1,0 +1,12 @@
+{
+  "contacts": [
+    { "id": "1", "name": "Nguyen Van A", "phone": "0901234567", "email": "a@gmail.com", "address": "Ho Chi Minh", "status": "pending", "note": "Gọi lại buổi chiều", "createdAt": "2026-03-01T08:00:00.000Z" },
+    { "id": "2", "name": "Tran Thi B", "phone": "0912345678", "email": "b@gmail.com", "address": "Ha Noi", "status": "called", "note": "Đã liên hệ xong", "createdAt": "2026-03-02T09:00:00.000Z" },
+    { "id": "3", "name": "Le Van C", "phone": "0923456789", "email": "c@gmail.com", "address": "Da Nang", "status": "missed", "note": "Không bắt máy", "createdAt": "2026-03-03T10:00:00.000Z" }
+  ],
+  "products": [
+    { "id": "1", "name": "iPhone 15 Pro", "description": "Điện thoại Apple cao cấp", "price": 29990000, "category": "Electronics", "image": "https://picsum.photos/seed/1/400/300", "inStock": true, "isSold": false, "createdAt": "2026-03-01T08:00:00.000Z" },
+    { "id": "2", "name": "Samsung Galaxy S24", "description": "Flagship Android mới nhất", "price": 22990000, "category": "Electronics", "image": "https://picsum.photos/seed/2/400/300", "inStock": true, "isSold": false, "createdAt": "2026-03-02T09:00:00.000Z" },
+    { "id": "3", "name": "Nike Air Max", "description": "Giày thể thao thoải mái", "price": 3500000, "category": "Fashion", "image": "https://picsum.photos/seed/3/400/300", "inStock": false, "isSold": false, "createdAt": "2026-03-03T10:00:00.000Z" }
+  ]
+}

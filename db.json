@@ -1,12 +1,471 @@
 {
   "contacts": [
-    { "id": "1", "name": "Nguyen Van A", "phone": "0901234567", "email": "a@gmail.com", "address": "Ho Chi Minh", "status": "pending", "note": "Gọi lại buổi chiều", "createdAt": "2026-03-01T08:00:00.000Z" },
-    { "id": "2", "name": "Tran Thi B", "phone": "0912345678", "email": "b@gmail.com", "address": "Ha Noi", "status": "called", "note": "Đã liên hệ xong", "createdAt": "2026-03-02T09:00:00.000Z" },
-    { "id": "3", "name": "Le Van C", "phone": "0923456789", "email": "c@gmail.com", "address": "Da Nang", "status": "missed", "note": "Không bắt máy", "createdAt": "2026-03-03T10:00:00.000Z" }
+    {
+      "id": 1,
+      "name": "Nguyen Van A",
+      "phone": "0901234567",
+      "email": "a@gmail.com",
+      "address": "Ho Chi Minh",
+      "status": "pending",
+      "note": "Gọi lại buổi chiều",
+      "lastSyncedAt": "2026-03-31T10:00:00Z",
+      "createdAt": "2026-03-01T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Tran Thi B",
+      "phone": "0912345678",
+      "email": "b@gmail.com",
+      "address": "Ha Noi",
+      "status": "called",
+      "note": "Đã liên hệ xong",
+      "lastSyncedAt": "2026-03-30T15:45:00Z",
+      "createdAt": "2026-03-02T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Le Van C",
+      "phone": "0923456789",
+      "email": "c@gmail.com",
+      "address": "Da Nang",
+      "status": "missed",
+      "note": "Không bắt máy",
+      "lastSyncedAt": "2026-03-29T12:20:00Z",
+      "createdAt": "2026-03-03T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Hoang Thi D",
+      "phone": "0934567890",
+      "email": "d@gmail.com",
+      "address": "Can Tho",
+      "status": "pending",
+      "note": "Cần theo dõi thêm",
+      "lastSyncedAt": "2026-03-28T11:30:00Z",
+      "createdAt": "2026-03-04T11:00:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Pham Van E",
+      "phone": "0945678901",
+      "email": "e@gmail.com",
+      "address": "Hai Phong",
+      "status": "called",
+      "note": "Đã thỏa thuận xong",
+      "lastSyncedAt": "2026-03-27T09:00:00Z",
+      "createdAt": "2026-03-05T12:00:00Z"
+    },
+    {
+      "id": 6,
+      "name": "Ngo Van F",
+      "phone": "0956789012",
+      "email": "f@gmail.com",
+      "address": "Nha Trang",
+      "status": "pending",
+      "note": "Chưa liên hệ được",
+      "lastSyncedAt": "2026-03-26T13:15:00Z",
+      "createdAt": "2026-03-06T13:30:00Z"
+    },
+    {
+      "id": 7,
+      "name": "Vu Thi G",
+      "phone": "0967890123",
+      "email": "g@gmail.com",
+      "address": "Hue",
+      "status": "missed",
+      "note": "Không bắt máy lần 2",
+      "lastSyncedAt": "2026-03-25T14:45:00Z",
+      "createdAt": "2026-03-07T14:00:00Z"
+    },
+    {
+      "id": 8,
+      "name": "Dang Van H",
+      "phone": "0978901234",
+      "email": "h@gmail.com",
+      "address": "Quang Ninh",
+      "status": "pending",
+      "note": "Liên hệ sáng hôm sau",
+      "lastSyncedAt": "2026-03-24T10:30:00Z",
+      "createdAt": "2026-03-08T15:15:00Z"
+    },
+    {
+      "id": 9,
+      "name": "Bui Thi I",
+      "phone": "0989012345",
+      "email": "i@gmail.com",
+      "address": "Vinh",
+      "status": "called",
+      "note": "Khách hàng tiềm năng",
+      "lastSyncedAt": "2026-03-23T16:20:00Z",
+      "createdAt": "2026-03-09T16:45:00Z"
+    },
+    {
+      "id": 10,
+      "name": "Tong Van J",
+      "phone": "0990123456",
+      "email": "j@gmail.com",
+      "address": "Thai Nguyen",
+      "status": "pending",
+      "note": "Tài khoản bị khóa",
+      "lastSyncedAt": "2026-03-22T11:00:00Z",
+      "createdAt": "2026-03-10T17:00:00Z"
+    },
+    {
+      "id": 11,
+      "name": "Duong Van K",
+      "phone": "0991234567",
+      "email": "k@gmail.com",
+      "address": "Bac Lieu",
+      "status": "missed",
+      "note": "Không trả lời tin nhắn",
+      "lastSyncedAt": "2026-03-21T08:15:00Z",
+      "createdAt": "2026-03-11T18:30:00Z"
+    },
+    {
+      "id": 12,
+      "name": "Luong Thi L",
+      "phone": "0992345678",
+      "email": "l@gmail.com",
+      "address": "Ca Mau",
+      "status": "pending",
+      "note": "Sẽ gọi lại vào thứ 2",
+      "lastSyncedAt": "2026-03-20T12:45:00Z",
+      "createdAt": "2026-03-12T09:15:00Z"
+    },
+    {
+      "id": 13,
+      "name": "Truong Van M",
+      "phone": "0993456789",
+      "email": "m@gmail.com",
+      "address": "Bac Giang",
+      "status": "called",
+      "note": "Đã xác nhận đơn hàng",
+      "lastSyncedAt": "2026-03-19T15:30:00Z",
+      "createdAt": "2026-03-13T10:45:00Z"
+    },
+    {
+      "id": 14,
+      "name": "Nhan Thi N",
+      "phone": "0994567890",
+      "email": "n@gmail.com",
+      "address": "Bac Kan",
+      "status": "pending",
+      "note": "Đợi phục hồi dữ liệu",
+      "lastSyncedAt": "2026-03-18T09:45:00Z",
+      "createdAt": "2026-03-14T11:20:00Z"
+    }
   ],
   "products": [
-    { "id": "1", "name": "iPhone 15 Pro", "description": "Điện thoại Apple cao cấp", "price": 29990000, "category": "Electronics", "image": "https://picsum.photos/seed/1/400/300", "inStock": true, "isSold": false, "createdAt": "2026-03-01T08:00:00.000Z" },
-    { "id": "2", "name": "Samsung Galaxy S24", "description": "Flagship Android mới nhất", "price": 22990000, "category": "Electronics", "image": "https://picsum.photos/seed/2/400/300", "inStock": true, "isSold": false, "createdAt": "2026-03-02T09:00:00.000Z" },
-    { "id": "3", "name": "Nike Air Max", "description": "Giày thể thao thoải mái", "price": 3500000, "category": "Fashion", "image": "https://picsum.photos/seed/3/400/300", "inStock": false, "isSold": false, "createdAt": "2026-03-03T10:00:00.000Z" }
+    {
+      "id": 1,
+      "name": "iPhone 15 Pro",
+      "description": "Điện thoại Apple cao cấp với chip A17 Pro và hệ thống camera tiên tiến",
+      "price": 29990000,
+      "category": "Electronics",
+      "images": [
+        "https://via.placeholder.com/400x400?text=iPhone+15+Pro+1",
+        "https://via.placeholder.com/400x400?text=iPhone+15+Pro+2",
+        "https://via.placeholder.com/400x400?text=iPhone+15+Pro+3"
+      ],
+      "inStock": true,
+      "isSold": false,
+      "rating": 4.8,
+      "reviewCount": 1250,
+      "createdAt": "2026-03-01T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S24",
+      "description": "Flagship Android mới nhất với bộ xử lý Snapdragon 8 Gen 3",
+      "price": 22990000,
+      "category": "Electronics",
+      "images": [
+        "https://via.placeholder.com/400x400?text=Galaxy+S24+1",
+        "https://via.placeholder.com/400x400?text=Galaxy+S24+2"
+      ],
+      "inStock": true,
+      "isSold": false,
+      "rating": 4.7,
+      "reviewCount": 980,
+      "createdAt": "2026-03-02T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Nike Air Max",
+      "description": "Giày thể thao thoải mái với công nghệ Air cushioning",
+      "price": 3500000,
+      "category": "Fashion",
+      "images": [
+        "https://via.placeholder.com/400x400?text=Nike+Air+Max"
+      ],
+      "inStock": false,
+      "isSold": false,
+      "rating": 4.5,
+      "reviewCount": 650,
+      "createdAt": "2026-03-03T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "MacBook Pro M3",
+      "description": "Laptop cao cấp cho developers và designers với chip M3 mạnh mẽ",
+      "price": 59990000,
+      "category": "Electronics",
+      "images": [
+        "https://via.placeholder.com/400x400?text=MacBook+Pro+1",
+        "https://via.placeholder.com/400x400?text=MacBook+Pro+2"
+      ],
+      "inStock": true,
+      "isSold": true,
+      "rating": 4.9,
+      "reviewCount": 2100,
+      "createdAt": "2026-03-04T11:00:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Clean Code",
+      "description": "Cuốn sách về lập trình sạch - A Handbook of Agile Software Craftsmanship",
+      "price": 1299000,
+      "category": "Books",
+      "images": [
+        "https://via.placeholder.com/400x400?text=Clean+Code"
+      ],
+      "inStock": true,
+      "isSold": false,
+      "rating": 4.6,
+      "reviewCount": 3400,
+      "createdAt": "2026-03-05T12:00:00Z"
+    },
+    {
+      "id": 6,
+      "name": "Sony WH-1000XM5",
+      "description": "Tai nghe không dây hạng sang với công nghệ khử tiếng ồn",
+      "price": 11290000,
+      "category": "Electronics",
+      "images": [
+        "https://via.placeholder.com/400x400?text=Sony+Headphones+1",
+        "https://via.placeholder.com/400x400?text=Sony+Headphones+2"
+      ],
+      "inStock": false,
+      "isSold": false,
+      "rating": 4.8,
+      "reviewCount": 1680,
+      "createdAt": "2026-03-06T13:30:00Z"
+    },
+    {
+      "id": 7,
+      "name": "iPad Air",
+      "description": "Máy tính bảng mạnh mẽ với chip M1 và màn hình Liquid Retina",
+      "price": 17990000,
+      "category": "Electronics",
+      "images": [
+        "https://via.placeholder.com/400x400?text=iPad+Air+1",
+        "https://via.placeholder.com/400x400?text=iPad+Air+2"
+      ],
+      "inStock": true,
+      "isSold": false,
+      "rating": 4.7,
+      "reviewCount": 1450,
+      "createdAt": "2026-03-07T14:00:00Z"
+    },
+    {
+      "id": 8,
+      "name": "Design Patterns",
+      "description": "Cuốn sách kinh điển về các mẫu thiết kế - Elements of Reusable Object-Oriented Software",
+      "price": 1649000,
+      "category": "Books",
+      "images": [
+        "https://via.placeholder.com/400x400?text=Design+Patterns"
+      ],
+      "inStock": true,
+      "isSold": false,
+      "rating": 4.4,
+      "reviewCount": 2200,
+      "createdAt": "2026-03-08T15:15:00Z"
+    },
+    {
+      "id": 9,
+      "name": "Dell XPS 15",
+      "description": "Laptop Windows cao cấp cho các chuyên gia với hiệu năng mạnh",
+      "price": 47990000,
+      "category": "Electronics",
+      "images": [
+        "https://via.placeholder.com/400x400?text=Dell+XPS+1",
+        "https://via.placeholder.com/400x400?text=Dell+XPS+2"
+      ],
+      "inStock": true,
+      "isSold": false,
+      "rating": 4.6,
+      "reviewCount": 920,
+      "createdAt": "2026-03-09T16:45:00Z"
+    },
+    {
+      "id": 10,
+      "name": "Effective Java",
+      "description": "Hướng dẫn lập trình Java - Programming Language Guide Third Edition",
+      "price": 1949000,
+      "category": "Books",
+      "images": [
+        "https://via.placeholder.com/400x400?text=Effective+Java"
+      ],
+      "inStock": true,
+      "isSold": true,
+      "rating": 4.5,
+      "reviewCount": 1900,
+      "createdAt": "2026-03-10T17:00:00Z"
+    },
+    {
+      "id": 11,
+      "name": "Google Pixel 8",
+      "description": "Điện thoại flagship của Google với camera AI-powered tiên tiến",
+      "price": 23990000,
+      "category": "Electronics",
+      "images": [
+        "https://via.placeholder.com/400x400?text=Pixel+8+1",
+        "https://via.placeholder.com/400x400?text=Pixel+8+2"
+      ],
+      "inStock": true,
+      "isSold": false,
+      "rating": 4.7,
+      "reviewCount": 1100,
+      "createdAt": "2026-03-11T18:30:00Z"
+    },
+    {
+      "id": 12,
+      "name": "You Don't Know JS",
+      "description": "Khám phá sâu vào cơ chế ngôn ngữ JavaScript",
+      "price": 1199000,
+      "category": "Books",
+      "images": [
+        "https://via.placeholder.com/400x400?text=You+Dont+Know+JS"
+      ],
+      "inStock": true,
+      "isSold": false,
+      "rating": 4.3,
+      "reviewCount": 1600,
+      "createdAt": "2026-03-12T09:15:00Z"
+    },
+    {
+      "id": 13,
+      "name": "Apple Watch Series 9",
+      "description": "Smartwatch cao cấp với các tính năng sức khỏe và fitness nâng cao",
+      "price": 11990000,
+      "category": "Electronics",
+      "images": [
+        "https://via.placeholder.com/400x400?text=Apple+Watch+1",
+        "https://via.placeholder.com/400x400?text=Apple+Watch+2"
+      ],
+      "inStock": true,
+      "isSold": false,
+      "rating": 4.6,
+      "reviewCount": 2300,
+      "createdAt": "2026-03-13T10:45:00Z"
+    },
+    {
+      "id": 14,
+      "name": "Refactoring",
+      "description": "Sách về cải thiện thiết kế của mã nguồn hiện có",
+      "price": 1349000,
+      "category": "Books",
+      "images": [
+        "https://via.placeholder.com/400x400?text=Refactoring"
+      ],
+      "inStock": true,
+      "isSold": false,
+      "rating": 4.5,
+      "reviewCount": 1400,
+      "createdAt": "2026-03-14T11:20:00Z"
+    },
+    {
+      "id": 15,
+      "name": "Logitech MX Master 3S",
+      "description": "Chuột không dây cao cấp cho các chuyên gia",
+      "price": 2999000,
+      "category": "Electronics",
+      "images": [
+        "https://via.placeholder.com/400x400?text=Logitech+Mouse"
+      ],
+      "inStock": true,
+      "isSold": false,
+      "rating": 4.8,
+      "reviewCount": 890,
+      "createdAt": "2026-03-15T12:30:00Z"
+    },
+    {
+      "id": 16,
+      "name": "The Mythical Man-Month",
+      "description": "Những bài viết về quản lý dự án phần mềm",
+      "price": 1499000,
+      "category": "Books",
+      "images": [
+        "https://via.placeholder.com/400x400?text=Mythical+Man-Month"
+      ],
+      "inStock": false,
+      "isSold": false,
+      "rating": 4.4,
+      "reviewCount": 980,
+      "createdAt": "2026-03-16T13:45:00Z"
+    },
+    {
+      "id": 17,
+      "name": "Canon EOS R5",
+      "description": "Máy ảnh mirrorless chuyên nghiệp với video 8K",
+      "price": 116990000,
+      "category": "Electronics",
+      "images": [
+        "https://via.placeholder.com/400x400?text=Canon+R5+1",
+        "https://via.placeholder.com/400x400?text=Canon+R5+2",
+        "https://via.placeholder.com/400x400?text=Canon+R5+3"
+      ],
+      "inStock": true,
+      "isSold": false,
+      "rating": 4.9,
+      "reviewCount": 450,
+      "createdAt": "2026-03-17T14:00:00Z"
+    },
+    {
+      "id": 18,
+      "name": "Code: The Hidden Language",
+      "description": "Sách giải thích về phần cứng và phần mềm máy tính",
+      "price": 1079000,
+      "category": "Books",
+      "images": [
+        "https://via.placeholder.com/400x400?text=Code+Hidden+Language"
+      ],
+      "inStock": true,
+      "isSold": false,
+      "rating": 4.6,
+      "reviewCount": 1200,
+      "createdAt": "2026-03-18T15:30:00Z"
+    },
+    {
+      "id": 19,
+      "name": "Corsair K95 Platinum",
+      "description": "Bàn phím gaming cơ cao cấp",
+      "price": 5999000,
+      "category": "Electronics",
+      "images": [
+        "https://via.placeholder.com/400x400?text=Corsair+Keyboard"
+      ],
+      "inStock": true,
+      "isSold": false,
+      "rating": 4.7,
+      "reviewCount": 650,
+      "createdAt": "2026-03-19T16:15:00Z"
+    },
+    {
+      "id": 20,
+      "name": "Enterprise Integration Patterns",
+      "description": "Thiết kế, xây dựng và triển khai các giải pháp messaging",
+      "price": 2099000,
+      "category": "Books",
+      "images": [
+        "https://via.placeholder.com/400x400?text=Integration+Patterns"
+      ],
+      "inStock": true,
+      "isSold": false,
+      "rating": 4.3,
+      "reviewCount": 780,
+      "createdAt": "2026-03-20T17:45:00Z"
+    }
   ]
 }
